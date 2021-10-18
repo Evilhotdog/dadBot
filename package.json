@@ -1,0 +1,24 @@
+{
+  "name": "dadbot",
+  "version": "0.0.1",
+  "description": "The most idiotic that I have ever had the good fortune of making",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evilhotdog/dadBot.git"
+  },
+  "author": "hotdog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evilhotdog/dadBot/issues"
+  },
+  "homepage": "https://github.com/Evilhotdog/dadBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0"
+  }
+}
