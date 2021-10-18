@@ -52,7 +52,9 @@ client.on("message", (message) => {
 	    if (!(message.guild.me.permissionsIn(message.channel).has("SEND_MESSAGES"))) {
             return
         }
-        if (waitMessage.length) {
+	if (message.content.toLowerCase().replace(/[\s,]+/g, "").includes("hidad")) {
+		message.reply("Hey kid")
+	} else if (waitMessage.length) {
 		    message.reply(waitMessage);
 		    waitMessage = ""
 		    return
